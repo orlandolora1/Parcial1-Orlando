@@ -1,0 +1,8 @@
+C:\Users\Lora\OneDrive\Documentos\Semestre 2023\Examen1-Orlando\Examen1-Orlando\Examen1-Orlando\obj\Debug\net6.0\Examen1-Orlando.csproj.AssemblyReference.cache
+C:\Users\Lora\OneDrive\Documentos\Semestre 2023\Examen1-Orlando\Examen1-Orlando\Examen1-Orlando\obj\Debug\net6.0\Examen1-Orlando.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lora\OneDrive\Documentos\Semestre 2023\Examen1-Orlando\Examen1-Orlando\Examen1-Orlando\obj\Debug\net6.0\Examen1-Orlando.AssemblyInfoInputs.cache
+C:\Users\Lora\OneDrive\Documentos\Semestre 2023\Examen1-Orlando\Examen1-Orlando\Examen1-Orlando\obj\Debug\net6.0\Examen1-Orlando.AssemblyInfo.cs
+C:\Users\Lora\OneDrive\Documentos\Semestre 2023\Examen1-Orlando\Examen1-Orlando\Examen1-Orlando\obj\Debug\net6.0\Examen1-Orlando.csproj.CoreCompileInputs.cache
+C:\Users\Lora\OneDrive\Documentos\Semestre 2023\Examen1-Orlando\Examen1-Orlando\Examen1-Orlando\obj\Debug\net6.0\Examen1-Orlando.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lora\OneDrive\Documentos\Semestre 2023\Examen1-Orlando\Examen1-Orlando\Examen1-Orlando\obj\Debug\net6.0\Examen1-Orlando.RazorAssemblyInfo.cache
+C:\Users\Lora\OneDrive\Documentos\Semestre 2023\Examen1-Orlando\Examen1-Orlando\Examen1-Orlando\obj\Debug\net6.0\Examen1-Orlando.RazorAssemblyInfo.cs
