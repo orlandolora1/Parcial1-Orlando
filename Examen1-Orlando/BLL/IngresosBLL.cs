@@ -1,9 +1,9 @@
-﻿using Examen1_Orlando.DAL;
+﻿/*using Examen1_Orlando.DAL;
 using Examen1_Orlando.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
-namespace Examen1_Orlando.BLL
+*//*namespace Examen1_Orlando.BLL
 {
     public class IngresosBLL
     {
@@ -72,4 +72,4 @@ namespace Examen1_Orlando.BLL
         }
 
     }
-}
+}*/

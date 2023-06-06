@@ -1,15 +1,19 @@
+/*using Examen1_Orlando.BLL;*/
+using Examen1_Orlando.DAL;
 using Examen1_Orlando.Data;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
-
+using Microsoft.Extensions.Options;
+using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
-builder.Services.AddSingleton<WeatherForecastService>();
-
+var Costr = builder.Configuration.GetConnectionString("Constr");
+builder.Services.AddDbContext<Contexto>( opt => opt.UseSqlite(Costr));
 var app = builder.Build();
+builder.Services.AddScoped<IngresosBLL>();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

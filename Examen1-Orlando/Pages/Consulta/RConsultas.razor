@@ -1,0 +1,95 @@
+﻿@page "/ingresos"
+@page "/ingresos/{ingresosId:int"
+@using Examen1_Orlando.Models
+
+
+@*<EditForm Model="ingresos"  >
+    <div class="card" >
+        <div class="card-header">
+            <h1>Ingresos</h1>
+        </div>
+        <div class="card-body">
+             @* Ingreso Id y boton de buscar *
+             @*
+            <label class="form-label">No. Ingreso</label>
+            <div class="input-group mb-3">
+            <InputNumber @bind-Value ="ingreso.IngresoId" class="form-control" />
+            <button class="btn btn-primary oi oi-magnifying-glass" type="button" id="button-addon2"></button>
+        </div>
+            @* Fecha *@@*
+            <div class="form-group">
+                <label class="form-label">Fecha de Ingreso</label>
+                <InputDate  id="Fecha" @bind-Value="Ingreso.Concepto" class="form-control"/>
+            </div>
+            @* Concepto*@@*
+            <div class="col-5 flex-fill mx-2">
+                <label class="form-label">Concepto</label>
+                <InputText @bind-Value="ingreso.Concepto" class="form-control"/>
+                
+            </div>
+            
+        </div>
+         @* Botones *@@*
+        <div class="accordion-flush">
+            <button type="button" class="btn btn-primary" @onclick= "Nuevo"><span class="oi oi-file"></span> Nuevo</button>
+            <button type="submit" class="btn btn-success"@onclick = "Guardar"><span class="oi oi-document"></span> Guardar</button>
+            <button type="button" class="btn btn-danger"@onclick = "Eliminar"><span class="oi oi-delete"></span> Eliminar</button>
+        </div>
+    </div>
+</EditForm>*@
+
+@code{
+   // [Parameter]
+   // public int ingresoId { get; set; }
+   // public Ingreso ingreso { get; set; } = new Ingreso();
+
+   //     protected override void OnInitialized()
+   //     {
+   //         if (ingresoId > 0)
+   //         {
+   //             ingreso.IngresoId = ingresoId;
+   //         }
+   //     }
+    
+   // void Nuevo(){
+   //     this.ingreso = new ingreso();
+   // }
+
+
+   //void Guardar(){
+   // if (!Validar())
+   // {
+   //     return;
+   // }
+   // if (ingresoBLL.Guardar(ingreso))
+   // {
+   //     this.Nuevo();
+   // }
+   //}
+
+   //void Eliminar(){
+   // if (ingresoBLL.Eliminar(ingreso))
+   // {
+   //     this.Nuevo();
+   // }
+
+   //}
+
+   //void Buscar(){
+   // var ingresoBuscar = ingresoBLL.Buscar(ingreso.IngresoId);
+   // if (ingresoBuscar !=null)
+   // {
+   //     ingreso = ingresoBuscar;
+   // }
+   //}
+  
+   //bool Validar(){
+   // if (string.IsNullOrEmpty(ingreso.Fecha))
+   //     return false;
+   // else
+   //     return true;
+   //}
+
+
+}
+
